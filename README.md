@@ -70,13 +70,11 @@ Tratamento de entrada do usuário (lower() e strip())
 
 ✅ Exemplo — Buscar preço de produto
 
-Acesso direto usando a chave do dicionário:
-
 print(dic_produtos["iphone"])
+
 
 ✅ Adicionar e atualizar dados
 
-Adicionar novo produto:
 
 dic_produtos["airpods"] = 2000
 
