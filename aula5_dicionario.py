@@ -24,7 +24,7 @@ print(dic_produtos)
 #remover um item no dicionario
 item_removido = dic_produtos.pop("macbook")
 print(dic_produtos)
-print(f"Item removido: {item_removido}")
+(f"Item removido: {item_removido}")
 
 #verificar se um item existe no dicionario
 print("ipad" in dic_produtos)  #retorna True ou False
