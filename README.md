@@ -125,10 +125,62 @@ Criar lógica de consulta dinâmica
 
 Construir base para aplicações backend e automações
 
+📚 Aula 7 — Funções em Python
+
+Nesta aula foram estudadas as funções em Python, um conceito fundamental da programação que permite criar blocos de código reutilizáveis.
+
+🧠 Conteúdos aprendidos
+
+- Definição de funções com `def`
+- Parâmetros e argumentos
+- Retorno de valores com `return`
+- Reutilização de código através de funções
+- Estruturação lógica de programas
+
+✅ Exercício prático — Sistema de cálculo de impostos
+
+Foi desenvolvido um sistema que:
+- Define uma função para calcular a taxa de imposto baseada no preço
+- Calcula o imposto total de uma lista de produtos
+- Aplica lógica condicional para diferentes faixas de preço
+- Demonstra como funções simplificam código complexo
+
+📚 Aula 8 — Tuplas em Python
+
+Nesta aula foram estudadas as tuplas, uma estrutura de dados imutável muito importante para trabalhar com dados que não devem ser alterados.
+
+🧠 Conteúdos aprendidos
+
+- Criação e acesso a tuplas
+- Diferença entre listas (mutáveis) e tuplas (imutáveis)
+- Desempacotamento de tuplas (unpacking)
+- Retorno de múltiplos valores em funções
+- Performance: tuplas são mais rápidas que listas
+- Iteração sobre tuplas
+
+✅ Exercício prático — Sistema de cálculo de bônus
+
+Foi desenvolvido um sistema que:
+- Define uma função que retorna múltiplos valores (tupla)
+- Calcula dois tipos de bônus: R$2 por venda + 1% do faturamento
+- Utiliza desempacotamento de tuplas para receber múltiplos retornos
+- Itera sobre um dicionário de vendedores com seus dados
+- Calcula bônus individuais e totalizações
+
+Esse exercício combina conhecimentos de funções, tuplas, dicionários e iterações, simulando um cenário real de cálculo de folha de pagamento.
+
+🎯 Objetivos das Aulas 7 e 8
+
+✅ Dominar a criação e uso de funções para reutilizar código
+✅ Entender a diferença entre mutabilidade e imutabilidade
+✅ Trabalhar com retorno de múltiplos valores
+✅ Aplicar conceitos em cenários práticos e realistas
+✅ Preparar-se para programação mais avançada e orientada a objetos
+
 ## 📝 Autor
 
 **VinihMarteleto** - Estudante de Python
 
 ---
 
-Último atualizado: Janeiro de 2026
+Último atualizado: Fevereiro de 2026
