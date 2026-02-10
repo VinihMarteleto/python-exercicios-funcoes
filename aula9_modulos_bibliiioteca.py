@@ -13,20 +13,20 @@ for nome_arquivo in lista_arquivos: # percorre a lista de arquivos
             os.rename(f"arquivos/{nome_arquivo}", f"arquivos/23/{nome_arquivo}") # move o arquivo para a pasta "23"
         else:
             os.rename(f"arquivos/{nome_arquivo}", f"arquivos/outros/{nome_arquivo}") # move o arquivo para a pasta "outros" 
-            print(f"Arquivo {nome_arquivo} movido para a pasta outros.")
+            
            
-# import requests
+import requests
 
-# link = " https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL"
+link = " https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL"
 
-# resposta = requests.get(link)
-# print(resposta)
-# dic_resposta = resposta.json()
+resposta = requests.get(link)
+print(resposta)
+dic_resposta = resposta.json()
 
-# for moeda in dic_resposta:
-#     dic_conversao_moeda = dic_resposta[moeda]
-#     valor_moeda = dic_conversao_moeda["bid"]    
-#     print(moeda, valor_moeda)
-# # {'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.2378', 'low': '5.17864', 'varBid': '0.0042', 'pctChange': '0.080895', 'bid': '5.1962', 'ask': '5.1992', 'timestamp': '1770753264', 'create_date': '2026-02-10 16:54:24'},
-# # 'EURBRL': {'code': 'EUR', 'codein': 'BRL', 'name': 'Euro/Real Brasileiro', 'high': '6.23053', 'low': '6.1597', 'varBid': '0.00766', 'pctChange': '0.12409', 'bid': '6.1805', 'ask': '6.1885', 'timestamp': '1770753088', 'create_date': '2026-02-10 16:51:28'},
-# # 'BTCBRL': {'code': 'BTC', 'codein': 'BRL', 'name': 'Bitcoin/Real Brasileiro', 'high': '369225', 'low': '352658', 'varBid': '-8929', 'pctChange': '-2.425', 'bid': '359251', 'ask': '359299', 'timestamp': '1770753265', 'create_date': '2026-02-10 16:54:25'}}
+for moeda in dic_resposta:
+    dic_conversao_moeda = dic_resposta[moeda]
+    valor_moeda = dic_conversao_moeda["bid"]    
+    print(moeda, valor_moeda)
+# {'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.2378', 'low': '5.17864', 'varBid': '0.0042', 'pctChange': '0.080895', 'bid': '5.1962', 'ask': '5.1992', 'timestamp': '1770753264', 'create_date': '2026-02-10 16:54:24'},
+# 'EURBRL': {'code': 'EUR', 'codein': 'BRL', 'name': 'Euro/Real Brasileiro', 'high': '6.23053', 'low': '6.1597', 'varBid': '0.00766', 'pctChange': '0.12409', 'bid': '6.1805', 'ask': '6.1885', 'timestamp': '1770753088', 'create_date': '2026-02-10 16:51:28'},
+# 'BTCBRL': {'code': 'BTC', 'codein': 'BRL', 'name': 'Bitcoin/Real Brasileiro', 'high': '369225', 'low': '352658', 'varBid': '-8929', 'pctChange': '-2.425', 'bid': '359251', 'ask': '359299', 'timestamp': '1770753265', 'create_date': '2026-02-10 16:54:25'}}
