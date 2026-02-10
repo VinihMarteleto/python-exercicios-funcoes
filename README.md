@@ -115,7 +115,7 @@ lista2_produtos = ["boné", "óculos"] + lista_produtos
 
 ### 🔹 Aula 4 - Estruturas de Controle (IF/ELSE/ELIF)
 
-**Arquivo:** `Aula-if.py`
+**Arquivo:** `aula4_if.py`
 
 Controle o fluxo do programa com condicionais:
 
@@ -345,7 +345,7 @@ print(lista_vendas[0])   # 1000
 print(tupla_vendas[0])   # 1000
 
 # Mas tuplas são imutáveis (não podem ser alteradas depois de criadas)
-# tupla_vendas[0] = 2000  # ❌ Isso daria erro!
+# tupla_vendas[0] = 2000  # ❌ Erro! Não pode ser modificada
 
 # Retorno múltiplo de uma função
 def calcular_bonus(lista_vendas):
@@ -449,7 +449,7 @@ for moeda in dic_resposta:
 | 1 | Strings e Formatação | `Aula1-codigo.py` |
 | 2 | Input e Conversão de Tipos | `Aula2-imputs.py` |
 | 3 | Listas | `Aula3-lista.py` |
-| 4 | Condicionais (IF/ELSE/ELIF) | `Aula-if.py` |
+| 4 | Condicionais (IF/ELSE/ELIF) | `aula4_if.py` |
 | 5 | Dicionários | `aula5_dicionario.py` |
 | 6 | Loops (FOR) | `aula6_for.py` |
 | 7 | Funções | `aula7_funcoes.py` |
@@ -466,7 +466,7 @@ Execute os arquivos Python diretamente:
 python Aula1-codigo.py
 python Aula2-imputs.py
 python Aula3-lista.py
-python Aula-if.py
+python aula4_if.py
 python aula5_dicionario.py
 python aula6_for.py
 python aula7_funcoes.py
